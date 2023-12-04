@@ -1,0 +1,2 @@
+export const PRIVACY_POLICY_LINK='https://www.freeprivacypolicy.com/live/4a1a344c-8349-490c-ab45-3f43ad5c9397';
+export const TERMS_AND_CONDITIONS_LINK='https://www.freeprivacypolicy.com/live/4a1a344c-8349-490c-ab45-3f43ad5c9397';
