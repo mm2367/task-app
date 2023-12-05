@@ -36,7 +36,7 @@ local.properties
 
 # node.js
 #
-planify/node_modules/
+/node_modules/
 npm-debug.log
 yarn-error.log
 
@@ -64,3 +64,9 @@ yarn-error.log
 
 # testing
 /coverage
+
+
+#Firebase
+
+/ios/GoogleService-Info.plist
+/android/app/google-services.json
