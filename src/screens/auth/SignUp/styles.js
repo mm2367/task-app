@@ -3,9 +3,8 @@ import {colors} from "../../../constants/styleconstants";
 export const styles=StyleSheet.create({
     container:{
         height:'100%',
-        paddingHorizontal:24,
-        paddingVertical:24,
-        backgroundColor:colors.white
+        marginVertical:24,
+        marginHorizontal:24,
     },
     footerText:{
         color: colors.gray,

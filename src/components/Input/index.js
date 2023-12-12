@@ -3,11 +3,11 @@ import { TextInput } from 'react-native';
 import styles from './styles';
 import {colors} from "../../constants/styleconstants";
 
-const Input =({...props})=>{
+const Input =({isOutlined,...props})=>{
     return(
             <TextInput
                 placeholderTextColor={colors.midGray}
-                style={styles.input}
+                style={[styles.input,isOutlined?styles.outlined:null]}
                 {...props}>
 
             </TextInput>

@@ -2,21 +2,30 @@ import { StyleSheet } from "react-native";
 import {colors} from "../../constants/styleconstants";
 
 const styles=StyleSheet.create({
-    input:{
-        backgroundColor: colors.lightGray,
-        fontSize:15,
+    outlined:{
+        marginVertical:12,
         paddingHorizontal:24,
         paddingVertical:13,
-        borderRadius:10,
-        color:colors.black,
-        marginVertical:12
-
-    },
-    outlined:{
         backgroundColor:colors.white,
         borderWidth:1,
         borderColor:colors.gray,
-        marginHorizontal:24
+        marginHorizontal:24,
+        borderRadius:10,
+        flexDirection:"row",
+        alignItems:'center',
+
+    },
+    text:{
+        fontSize:15,
+        color:colors.gray,
+
+
+    },
+    icon:{
+        width:16,
+        height:16,
+        marginRight:8
+
     }
 })
 
